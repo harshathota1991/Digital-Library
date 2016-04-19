@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Oracle Database</title>
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style>
+p{
+color:#151B54;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="index.html">Home</a></li>
+			<li><a href="lib.html">Library</a></li>
+			<li><a href="abclass.html">Absolute Class</a></li>
+				<li><a href="cground.html">Coding Ground</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<br>
+	<br>
+	<table width="100%" height = "100%" border="0">
+
+  	<tr>
+    		<td width="13%"></td>
+            <td width ="74%">
+			<br><br>
+			<h1 style="color:#151B54;" >Oracle Database</h1><br>
+			<hr>
+		<br>
+		<h1 style="color:#151B54;" > About Oracle Database </h1><br>	
+		<p>Oracle Database (commonly referred to as Oracle RDBMS or simply as Oracle) is an object-relational database management system
+		produced and marketed by Oracle Corporation. An Oracle database system—identified by an alphanumeric system identifier or SID—comprises at least
+		one instance of the application, along with data storage. An instance—identified persistently by an instantiation number
+		(or activation id: SYS.V_$DATABASE.ACTIVATION#)—comprises a set of operating-system processes and memory-structures that interact with the storage.
+		(Typical processes include PMON (the process monitor) and SMON (the system monitor).) Oracle documentation can refer to an active database
+		instance as a "shared memory realm". Users of Oracle databases refer to the server-side memory-structure as the SGA (System Global Area).
+		The SGA typically holds cache information such as data-buffers, SQL commands, and user information. In addition to storage,
+		the database consists of online redo logs (or logs), which hold transactional history. Processes can in turn archive the online redo 
+		logs into archive logs (offline redo logs), which provide the basis (if necessary) for data recovery and for the physical-standby forms of data
+		replication using Oracle Data Guard.
+</p>
+
+		<br>
+		<h1 style="color:#151B54;" > Storage </h1><br>	
+		<p>The Oracle RDBMS stores data logically in the form of tablespaces and physically in the form of data files ("datafiles").
+		Tablespaces can contain various types of memory segments, such as Data Segments, Index Segments, etc. Segments in turn comprise one or more extents.
+		Extents comprise groups of contiguous data blocks. Data blocks form the basic units of data storage.
+		The partitioning feature was introduced in Oracle 8. This allows the partitioning of tables based on different set of keys.
+		Specific partitions can then be easily added or dropped to help manage large data sets
+</p>	
+	<br><br>
+		
+			<div id="about">
+		
+		<p style="color:red; font-size:20px;"><a href="books/oracle.pdf"><img src="database/oracle.png" alt="html" width="150" height="150" class="alignleft" /> </a><strong><br>Tutorial</strong></p>
+		
+		<p>Click on the Image to view the complete Oracle Database Tutorial</p>
+	
+	</div>
+	
+		
+   		</td>
+ 	    <td width="13%"></td>
+  	</tr>
+	
+
+	</table>
+
+
+	
+	<div id="footer">
+	<p >Copyright &copy; DigitalLibrary</p>
+</div>
+
+</div>
+</body>
+</html>

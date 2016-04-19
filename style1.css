@@ -1,0 +1,122 @@
+
+body {
+	margin 0;
+	padding 0;
+	background #E8E8E8 url(imagesmain-bg.png) repeat;
+	font-family 'Arvo', serif;
+	font-size 14px;
+	
+}
+
+p, ul, ol {
+	margin-top 0;
+	line-height 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration none;
+	color #000000;
+}
+
+ahover {
+color:red;
+}
+
+img.border {
+	border 6px solid #E1F1F6;
+}
+
+img.alignleft {
+	float left;
+	margin-top 5px;
+	margin-right 30px;
+}
+
+img.alignright {
+	float right;
+}
+
+img.aligncenter {
+	margin 0px auto;
+}
+
+#wrapper {
+	margin 0 auto;
+	padding 0;
+}
+
+#mix
+{
+margin 0 auto;
+	padding 0px;
+
+}
+
+ Menu 
+
+#menu {
+	width 1000px;
+	height 70px;
+	margin 0 auto;
+	padding 0px;
+	background-color #FFFFFF;
+}
+
+#menu ul {
+	margin 0;
+	padding 0px 0px 0px 0px;
+	list-style none;
+	line-height normal;
+}
+
+#menu li {
+	float left;
+	border-right 1px solid #E1E1E1;
+}
+
+#menu a {
+	display block;
+	height 70px;
+	margin 0px 1px;
+	padding 0px 20px 0px 20px;
+	line-height 70px;
+	text-decoration none;
+	font-size 16px;
+	font-weight normal;
+	color #000000;
+}
+
+#menu .current_page_item a {
+	background url(imagesmenu-active-bg.jpg) repeat-x left top;;
+}
+
+#menu ahover {
+	background url(imagesmenu-active-bg.jpg) repeat-x left top;;
+}
+
+
+
+ Footer 
+
+#footer {
+	width 900px;
+	height 140px;
+	margin 0px auto;
+}
+
+#footer p {
+	margin 0;
+	padding-top 30px;
+	line-height normal;
+	text-align center;
+	font-size 14px;
+	color #3B1C11;
+}
+
+
+}
+
+

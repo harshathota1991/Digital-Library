@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>SQLite</title>
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style>
+p{
+color:#151B54;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="index.html">Home</a></li>
+			<li><a href="lib.html">Library</a></li>
+			<li><a href="abclass.html">Absolute Class</a></li>
+				<li><a href="cground.html">Coding Ground</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<br>
+	<br>
+	<table width="100%" height = "100%" border="0">
+
+  	<tr>
+    		<td width="13%"></td>
+            <td width ="74%">
+			<br><br>
+			<h1 style="color:#151B54;" >SQLite</h1><br>
+			<hr>
+		<br>
+		<h1 style="color:#151B54;" > About SQLite </h1><br>	
+		<p>SQLite is a relational database management system contained in a C programming library. In contrast to other database management systems,
+		SQLite is not a client–server database engine. Rather, it is embedded into the end program.
+
+SQLite is ACID-compliant and implements most of the SQL standard, using a dynamically and weakly typed SQL syntax that does not guarantee
+ the domain integrity.
+
+SQLite is a popular choice as embedded database software for local/client storage in application software such as web browsers. 
+It is arguably the most widely deployed database engine, as it is used today by several widespread browsers, operating systems, and embedded systems,
+ among others. SQLite has bindings to many programming languages.
+
+The source code for SQLite is in the public domain.
+</p>
+
+		<br>
+		<h1 style="color:#151B54;" > Design </h1><br>	
+		<p>Unlike client–server database management systems, the SQLite engine has no standalone processes with which the application program 
+		communicates. Instead, the SQLite library is linked in and thus becomes an integral part of the application program.
+		(In this, SQLite follows the precedent of Informix SE of c. 1984) The library can also be called dynamically.
+		The application program uses SQLite's functionality through simple function calls, which reduce latency in database access:
+		function calls within a single process are more efficient than inter-process communication. SQLite stores the entire database 
+		(definitions, tables, indices, and the data itself) as a single cross-platform file on a host machine.
+		It implements this simple design by locking the entire database file during writing. SQLite read operations can be multitasked, 
+		though writes can only be performed sequentially.
+</p>	
+	<br><br>
+		
+		<br>
+		<h1 style="color:#151B54;" > Features </h1><br>	
+		<p>SQLite implements most of the SQL-92 standard for SQL but it lacks some features. For example it partially provides triggers, 
+		and it can't write to views (however it provides INSTEAD OF triggers that provide this functionality). 
+		While it provides complex queries, it still has limited ALTER TABLE function, as it can't modify or delete columns.
+</p>	
+	<br><br>
+			<div id="about">
+		
+		<p style="color:red; font-size:20px;"><a href="books/sqlite.pdf"><img src="database/sqlite.png" alt="html" width="150" height="150" class="alignleft" /> </a><strong><br>Tutorial</strong></p>
+		
+		<p>Click on the Image to view the complete SQLite Tutorial</p>
+	
+	</div>
+	
+		
+   		</td>
+ 	    <td width="13%"></td>
+  	</tr>
+	
+
+	</table>
+
+
+	
+	<div id="footer">
+	<p >Copyright &copy; DigitalLibrary</p>
+</div>
+
+</div>
+</body>
+</html>

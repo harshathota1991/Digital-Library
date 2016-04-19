@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Apache Hadoop</title>
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style>
+p{
+color:#151B54;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="index.html">Home</a></li>
+			<li><a href="lib.html">Library</a></li>
+			<li><a href="abclass.html">Absolute Class</a></li>
+				<li><a href="cground.html">Coding Ground</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<br>
+	<br>
+	<table width="100%" height = "100%" border="0">
+
+  	<tr>
+    		<td width="13%"></td>
+            <td width ="74%">
+			<br><br>
+			<h1 style="color:#151B54;" >Apache Hadoop</h1><br>
+			<hr>
+		<br>
+		<h1 style="color:#151B54;" > About Apache Hadoop</h1><br>	
+		<p>Apache Hadoop is an open-source software framework written in Java for distributed storage and distributed processing of very large 
+		data sets on computer clusters built from commodity hardware. All the modules in Hadoop are designed with a fundamental assumption that
+		hardware failures (of individual machines, or racks of machines) are commonplace and thus should be automatically handled in software by the framework.
+		
+
+The core of Apache Hadoop consists of a storage part (Hadoop Distributed File System (HDFS)) and a processing part (MapReduce).
+ Hadoop splits files into large blocks and distributes them amongst the nodes in the cluster. To process the data, Hadoop MapReduce transfers 
+ packaged code for nodes to process in parallel, based on the data each node needs to process. This approach takes advantage of data locality
+ —nodes manipulating the data that they have on hand—to allow the data to be processed faster and more efficiently than it would be in a
+ more conventional supercomputer architecture that relies on a parallel file system where computation and data are connected via high-speed networking.
+</p>
+
+	<br><br>
+	<h1 style="color:#151B54;" > Architecture</h1><br>	
+		<p>Hadoop consists of the Hadoop Common package, which provides filesystem and OS level abstractions, a MapReduce engine 
+		(either MapReduce/MR1 or YARN/MR2) and the Hadoop Distributed File System (HDFS). The Hadoop Common package contains the necessary Java ARchive 
+		(JAR) files and scripts needed to start Hadoop. The package also provides source code, documentation, and a contribution section that includes projects
+		from the Hadoop Community.
+
+For effective scheduling of work, every Hadoop-compatible file system should provide location awareness: the name of the rack 
+(more precisely, of the network switch) where a worker node is. Hadoop applications can use this information to run work on the node where 
+the data is, and, failing that, on the same rack/switch, reducing backbone traffic. HDFS uses this method when replicating data to try to keep
+ different copies of the data on different racks. The goal is to reduce the impact of a rack power outage or switch failure, so that even if these events
+ occur, the data may still be readable.
+</p>
+
+	<br><br>
+			<div id="about">
+		
+		<p style="color:red; font-size:20px;"><a href="books/hadoop.pdf"><img src="database/hadoop.jpg" alt="html" width="150" height="150" class="alignleft" /> </a><strong><br>Tutorial</strong></p>
+		
+		<p>Click on the Image to view the complete Hadoop Tutorial</p>
+	
+	</div>
+	
+		
+   		</td>
+ 	    <td width="13%"></td>
+  	</tr>
+	
+
+	</table>
+
+
+	
+	<div id="footer">
+	<p >Copyright &copy; DigitalLibrary</p>
+</div>
+
+</div>
+</body>
+</html>
